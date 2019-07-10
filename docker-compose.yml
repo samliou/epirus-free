@@ -20,7 +20,7 @@ services:
         entrypoint: mongod --smallfiles --logpath=/dev/null --bind_ip "0.0.0.0"
 
     web:
-        image: web3labs/epirus-free-web:latest
+        image: coolcode/epirus-free-web:latest
         ports:
             - 3000:3000
         environment:
