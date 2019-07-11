@@ -6,6 +6,7 @@ services:
             - 8081:8081
         environment:
             - ENABLE_PRIVATE_QUORUM=enabled
+            - ENABLE_ADVANCED_FEATURES=enabled
             - EXPLORER_PORT=8081
             - NODE_ENDPOINT=http://3.211.248.180:22001
             - MONGO_CLIENT_URI=mongodb://mongodb:27017
