@@ -8,7 +8,7 @@ services:
             - ENABLE_PRIVATE_QUORUM=enabled
             - ENABLE_ADVANCED_FEATURES=enabled
             - EXPLORER_PORT=8081
-            - NODE_ENDPOINT=http://3.211.248.180:22001
+            - NODE_ENDPOINT=${NODE_ENDPOINT}
             - MONGO_CLIENT_URI=mongodb://mongodb:27017
             - MONGO_DB_NAME=epirus
         depends_on:
@@ -21,11 +21,12 @@ services:
         entrypoint: mongod --smallfiles --logpath=/dev/null --bind_ip "0.0.0.0"
 
     web:
-        image: coolcode/epirus-free-web:latest
+        image: yopoo/eth-explorer-web:latest
         ports:
             - 3000:3000
         environment:
             - API_URL=/api/
+            - STAT_WEB_URL=http://stat_ui:8091
         depends_on:
             - api
 
@@ -39,3 +40,17 @@ services:
         depends_on:
             - api
             - web
+
+    stat_api:
+        image: yopoo/eth-netstats-api:latest
+        environment:
+            - WEB_URL=http://stat_ui:8091
+        depends_on:
+            - stat_ui
+        volumes:
+            - ./node.json:/app/node.json
+
+    stat_ui:
+        image: yopoo/eth-netstats-ui:latest
+        ports:
+            - 8091:8091
