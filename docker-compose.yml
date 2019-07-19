@@ -26,7 +26,7 @@ services:
             - 3000:3000
         environment:
             - API_URL=/api/
-            - STAT_WEB_URL=http://stat_ui:8091
+            - STAT_WEB_URL=http://3.216.212.77:8091
         depends_on:
             - api
 
