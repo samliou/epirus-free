@@ -1,6 +1,6 @@
 [
 	{
-		"name": "3.216.212.77:22001",
+		"name": "54.161.34.219:22001",
 		"script": "app.js",
 		"log_date_format": "YYYY-MM-DD HH:mm Z",
 		"merge_logs": false,
@@ -10,10 +10,10 @@
 		"exec_mode": "fork_mode",
 		"env": {
 			"NODE_ENV": "production",
-			"RPC_HOST": "3.216.212.77",
+			"RPC_HOST": "54.161.34.219",
 			"RPC_PORT": "22001",
 			"LISTENING_PORT": "30303",
-			"INSTANCE_NAME": "3.216.212.77:22001",
+			"INSTANCE_NAME": "54.161.34.219:22001",
 			"CONTACT_DETAILS": "",
 			"WS_SERVER": "http://localhost:8091",
 			"WS_SECRET": "Hello",
@@ -21,7 +21,7 @@
 		}
 	},
 	{
-		"name": "3.216.212.77:22002",
+		"name": "54.161.34.219:22002",
 		"script": "app.js",
 		"log_date_format": "YYYY-MM-DD HH:mm Z",
 		"merge_logs": false,
@@ -31,10 +31,10 @@
 		"exec_mode": "fork_mode",
 		"env": {
 			"NODE_ENV": "production",
-			"RPC_HOST": "3.216.212.77",
+			"RPC_HOST": "54.161.34.219",
 			"RPC_PORT": "22002",
 			"LISTENING_PORT": "30303",
-			"INSTANCE_NAME": "3.216.212.77:22002",
+			"INSTANCE_NAME": "54.161.34.219:22002",
 			"CONTACT_DETAILS": "",
 			"WS_SERVER": "http://localhost:8091",
 			"WS_SECRET": "Hello",
@@ -42,7 +42,7 @@
 		}
 	},
 	{
-		"name": "3.216.212.77:22003",
+		"name": "54.161.34.219:22003",
 		"script": "app.js",
 		"log_date_format": "YYYY-MM-DD HH:mm Z",
 		"merge_logs": false,
@@ -52,10 +52,10 @@
 		"exec_mode": "fork_mode",
 		"env": {
 			"NODE_ENV": "production",
-			"RPC_HOST": "3.216.212.77",
+			"RPC_HOST": "54.161.34.219",
 			"RPC_PORT": "22003",
 			"LISTENING_PORT": "30303",
-			"INSTANCE_NAME": "3.216.212.77:22003",
+			"INSTANCE_NAME": "54.161.34.219:22003",
 			"CONTACT_DETAILS": "",
 			"WS_SERVER": "http://localhost:8091",
 			"WS_SECRET": "Hello",
@@ -63,7 +63,7 @@
 		}
 	},
 	{
-		"name": "3.216.212.77:22004",
+		"name": "54.161.34.219:22004",
 		"script": "app.js",
 		"log_date_format": "YYYY-MM-DD HH:mm Z",
 		"merge_logs": false,
@@ -73,10 +73,10 @@
 		"exec_mode": "fork_mode",
 		"env": {
 			"NODE_ENV": "production",
-			"RPC_HOST": "3.216.212.77",
+			"RPC_HOST": "54.161.34.219",
 			"RPC_PORT": "22004",
 			"LISTENING_PORT": "30303",
-			"INSTANCE_NAME": "3.216.212.77:22004",
+			"INSTANCE_NAME": "54.161.34.219:22004",
 			"CONTACT_DETAILS": "",
 			"WS_SERVER": "http://localhost:8091",
 			"WS_SECRET": "Hello",
@@ -84,7 +84,7 @@
 		}
 	},
 	{
-		"name": "3.216.212.77:22005",
+		"name": "54.161.34.219:22005",
 		"script": "app.js",
 		"log_date_format": "YYYY-MM-DD HH:mm Z",
 		"merge_logs": false,
@@ -94,52 +94,10 @@
 		"exec_mode": "fork_mode",
 		"env": {
 			"NODE_ENV": "production",
-			"RPC_HOST": "3.216.212.77",
+			"RPC_HOST": "54.161.34.219",
 			"RPC_PORT": "22005",
 			"LISTENING_PORT": "30303",
-			"INSTANCE_NAME": "3.216.212.77:22005",
-			"CONTACT_DETAILS": "",
-			"WS_SERVER": "http://localhost:8091",
-			"WS_SECRET": "Hello",
-			"VERBOSITY": 2
-		}
-	},
-	{
-		"name": "3.216.212.77:22006",
-		"script": "app.js",
-		"log_date_format": "YYYY-MM-DD HH:mm Z",
-		"merge_logs": false,
-		"watch": false,
-		"max_restarts": 10,
-		"exec_interpreter": "node",
-		"exec_mode": "fork_mode",
-		"env": {
-			"NODE_ENV": "production",
-			"RPC_HOST": "3.216.212.77",
-			"RPC_PORT": "22006",
-			"LISTENING_PORT": "30303",
-			"INSTANCE_NAME": "3.216.212.77:22006",
-			"CONTACT_DETAILS": "",
-			"WS_SERVER": "http://localhost:8091",
-			"WS_SECRET": "Hello",
-			"VERBOSITY": 2
-		}
-	},
-	{
-		"name": "3.216.212.77:22007",
-		"script": "app.js",
-		"log_date_format": "YYYY-MM-DD HH:mm Z",
-		"merge_logs": false,
-		"watch": false,
-		"max_restarts": 10,
-		"exec_interpreter": "node",
-		"exec_mode": "fork_mode",
-		"env": {
-			"NODE_ENV": "production",
-			"RPC_HOST": "3.216.212.77",
-			"RPC_PORT": "22007",
-			"LISTENING_PORT": "30303",
-			"INSTANCE_NAME": "3.216.212.77:22007",
+			"INSTANCE_NAME": "54.161.34.219:22005",
 			"CONTACT_DETAILS": "",
 			"WS_SERVER": "http://localhost:8091",
 			"WS_SECRET": "Hello",
