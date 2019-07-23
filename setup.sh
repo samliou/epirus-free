@@ -61,4 +61,4 @@ EOF
 done
 echo "]" >> node.json
 
-echo 'Done!'
+echo "Finished monitor's configuration!"
